@@ -11,7 +11,7 @@ header {
 }
 
 .name {
-    color: #333; /* Change color as needed */
+    color: #da1919; /* Change color as needed */
 }
 
 .bio-container {
@@ -21,14 +21,14 @@ header {
 }
 
 .black-box {
-    background-color: #333; /* Change color as needed */
+    background-color: #eae0e0; /* Change color as needed */
     color: #fff; /* Change color as needed */
     padding: 20px;
     width: 45%;
 }
 
 .white-box {
-    background-color: #fff; /* Change color as needed */
+    background-color: #dfc3c3; /* Change color as needed */
     color: #333; /* Change color as needed */
     padding: 20px;
     width: 45%;
@@ -36,4 +36,19 @@ header {
 
 .bio {
     text-align: justify;
+}
+
+.box {
+    border: 1px solid black; /* border for visualization */
+    margin-bottom: 20px; /* add some space between the boxes */
+}
+.small-box {
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2; /* light gray background */
+}
+.big-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc; /* gray background */
 }
