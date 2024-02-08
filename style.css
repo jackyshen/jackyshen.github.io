@@ -3,14 +3,12 @@
     padding-right: 100px;
     padding-bottom: 200px;
     padding-left: 4em;
+    font-size: 24px;
+    color: white;
+    text-align: center; /* Center align the text */
     background-color: red
-    font-size: 20px;
-    color:white
   }
-  
   .container {
     padding: 120px;
     background-color: blue
-    
-  
   }
