@@ -1,16 +1,14 @@
-.big-box {
-    width: 400px;
-    height: 400px;
-    background-color: lightgray;
-    position: relative; /* Set position to relative for positioning the small box */
+.box {
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    padding-left: 4em;
+    background-color: red
   }
-
-  /* Styles for the small box */
-  .small-box {
-    width: 100px;
-    height: 100px;
-    background-color: skyblue;
-    position: absolute; /* Set position to absolute for positioning within the big box */
-    top: 50px; /* Position the small box 50px from the top of the big box */
-    left: 50px; /* Position the small box 50px from the left of the big box */
+  
+  .container {
+    padding: 120px;
+    background-color: blue
+    
+  
   }
