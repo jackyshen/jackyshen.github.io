@@ -1,5 +1,5 @@
 .big-box {
-    width: 1200px;
+    width: 1000px;
     height: 600px;
     background-color: rgb(56, 56, 221);
     padding: 20px;
@@ -10,5 +10,5 @@
   .small-box {
     width: 800px;
     height: 400px;
-    background-color: skyblue;
+    background-color: rgb(235, 18, 18);
   }
