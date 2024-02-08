@@ -4,11 +4,15 @@
     background-color: rgb(56, 56, 221);
     padding: 20px;
     box-sizing: border-box; /* 使内边距和边框大小不会增加元素的总宽度和高度 */
-  }
-
+  
+}
   /* 小 box 样式 */
   .small-box {
     width: 800px;
     height: 400px;
     background-color: rgb(235, 18, 18);
-  }
+    position: absolute; /* 将小盒子设为绝对定位 */
+    top: 10%; /* 将小盒子的顶部距离大盒子顶部的距离设置为大盒子高度的一半 */
+    left: 10%; /* 将小盒子的左侧距离大盒子左侧的距离设置为大盒子宽度的一半 */
+    transform: translate(-10%, -10%); /* 使用 transform 属性将小盒子居中 */  
+}
