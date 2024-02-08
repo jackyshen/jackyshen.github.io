@@ -1,14 +1,14 @@
 .big-box {
-    width: 800px;
-    height: 800px;
-    background-color: blue;
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(56, 56, 221);
     padding: 20px;
     box-sizing: border-box; /* 使内边距和边框大小不会增加元素的总宽度和高度 */
   }
 
   /* 小 box 样式 */
   .small-box {
-    width: 100px;
-    height: 100px;
+    width: 800px;
+    height: 400px;
     background-color: skyblue;
   }
